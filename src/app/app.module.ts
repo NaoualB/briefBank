@@ -11,6 +11,8 @@ import { ListClientsComponent } from './list-clients/list-clients.component';
 import { CreditAccountComponent } from './credit-account/credit-account.component';
 import { TransferAccountComponent } from './transfer-account/transfer-account.component';
 import { DebitAccountComponent } from './debit-account/debit-account.component';
+import { ModifyAccountComponent } from './modify-account/modify-account.component';
+import { DeleteAccountComponent } from './delete-account/delete-account.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { DebitAccountComponent } from './debit-account/debit-account.component';
     ListClientsComponent,
     CreditAccountComponent,
     TransferAccountComponent,
-    DebitAccountComponent
+    DebitAccountComponent,
+    ModifyAccountComponent,
+    DeleteAccountComponent
   ],
   imports: [
     BrowserModule
