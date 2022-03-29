@@ -30,7 +30,7 @@ import { DeleteAccountComponent } from './delete-account/delete-account.componen
     DeleteAccountComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -5,6 +5,7 @@
     </div>
 
     <div class="DetailAD">
+        <app-update-account></app-update-account>
         <!--Il va falloir implementer un if ici pour choisir la bonne barre-->
         <!-- If compte nature = courant-->
         <!-- Then display UpdateAccount-->
@@ -12,7 +13,14 @@
     </div>
     <div class="BoutonAD">
         <ul>
-            <!--Mettre les 5 boutons! tant pis pour le design-->
+           <li><app-credit-account></app-credit-account></li>
+           <li><app-debit-account></app-debit-account></li>
+           <li><app-modify-account></app-modify-account></li>
+           <li><app-transfer-account></app-transfer-account></li>
+            
         </ul>
+        <div class="AloneBAD">
+        <app-delete-account></app-delete-account>
+        </div>
     </div>
 </div>

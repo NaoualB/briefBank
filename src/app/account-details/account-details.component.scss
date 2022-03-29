@@ -2,9 +2,28 @@
     background-color:rgba(56, 141, 136, 1);
     font-family: Inter;
     font-size: 18px;
+    display: block;
+    margin: auto;
 }
 h2{
     text-align: center;
     padding-top: 70pt;
     font-size: 28pt;
+}
+ul{
+    text-decoration: none;
+    column-count: 2;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 440px;
+    display: block;
+
+}
+li{
+    list-style-type:none;
+    padding:20px;
+
+}
+.AloneBAD{
+    text-align: center;
 }
