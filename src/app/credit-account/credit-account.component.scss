@@ -1,5 +1,21 @@
-.MainCA{
-    background-color:rgba(56, 141, 136, 1);
+#MainCA{
+    background-color: rgba(25, 68, 132, 1);    
     font-family: Inter;
-    font-size: 18px;
+    font-size: 28px;
+    width: 225px;
+    height: 75px;
+    display: block;
 }
+p{
+    text-align: center;
+    display: block;
+    margin:auto;
+    padding: 20px;
+    color: aliceblue;
+
+}
+#MainCA:hover{
+    background-color:rgba(51, 117, 216, 1);
+    border:3px solid #194484;
+}
+
