@@ -13,6 +13,7 @@ import { TransferAccountComponent } from './transfer-account/transfer-account.co
 import { DebitAccountComponent } from './debit-account/debit-account.component';
 import { ModifyAccountComponent } from './modify-account/modify-account.component';
 import { DeleteAccountComponent } from './delete-account/delete-account.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { DeleteAccountComponent } from './delete-account/delete-account.componen
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
